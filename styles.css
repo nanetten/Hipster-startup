@@ -1,0 +1,144 @@
+/*Nav*/
+.navbar-inverse {
+   background-color: rgba(0,0,0,.5);
+   border: 0;
+}
+/*Nav end*/
+
+/*Cover*/
+.cover {
+   background-image: url(img/couchfriends.jpg);
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   box-shadow: inset 0 0 100px #000;
+   display: table;
+   width: 100%;
+   padding: 0 20%;
+}
+.cover-text {
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+   color: #fff;
+}
+.cover-text h1 {
+   font-size: 70px;
+   letter-spacing: -3px;
+   margin: 0;
+}
+@media screen and (max-width: 767px) {
+   .cover-text h1 {
+      font-size: 40px;
+   }
+}
+.cover-text p {
+   margin: 0 0 22px 0;
+}
+/*Cover end*/
+
+/*Quote*/
+.quote {
+   background-color: #222222;
+   padding: 100px;
+   font-family: Georgia, Times, serif;
+}
+.quote blockquote {
+   color: #fff;
+   font-style: italic;
+   font-size: 32px;
+   margin: 0;
+   border-left: none;
+
+}
+.quote blockquote cite {
+   display: block;
+   margin-top: 40px;
+   text-align: right;
+   font-size: 18px;
+       font-family: Helvetica, Arial, sans-serif;
+   color: #888;
+   font-style: normal;
+   font-weight: bold;
+}
+/*Quote end*/
+
+/*Why us*/
+#why_us {
+   padding: 100px;
+}
+#why_us h2{
+   font-size: 28px;
+   text-align: center;
+   font-weight: bold;
+   margin: 0 0 60px 0;
+}
+#why_us .col-sm-4 h4 {
+   font-size: 24px;
+   margin-top: 20px;
+}
+/*Why_us end*/
+
+/*Our_team*/
+#our_team {
+   padding: 100px;
+   color: #fff;
+   background-image: url(img/fan.jpg);
+   -webkit-background-size: cover;
+   background-size: cover;
+   text-align: center;
+   width: 100%;
+}
+
+#our_team h2 {
+   font-weight: bold;
+   margin: 0 0 60px;
+
+}
+#our_team .col-sm-3 img {
+   margin: 0 auto;
+}
+/*Our_team end*/
+
+/*sign_up*/
+#sign_up {
+   background-color: #fff;
+   padding: 100px;
+   text-align: center;
+}
+
+#sign_up h2{
+   font-size: 28px;
+   margin: 5px 0;
+   font-weight: bold;
+}
+#sign_up h3 {
+   margin: 0 0 20px;
+   font-size: 22px;
+}
+/*sign_up end*/
+
+/*footer*/
+footer {
+   background-color: #222222;
+   color: #fff;
+   text-align: center;
+   padding: 20px;
+}
+
+/*Mobile*/
+@media screen and (max-width: 600px) {
+   .cover {
+      padding: 0 15px;
+   }
+   section, #our_team{
+      padding: 20px !important;
+   }
+   .quote blockquote {
+      font-size: 20px;
+   }
+   #our_team .col-sm-3{
+      margin: 0 0 60px;
+   }
+}
